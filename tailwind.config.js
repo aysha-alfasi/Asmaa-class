@@ -1,0 +1,11 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Zain", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
