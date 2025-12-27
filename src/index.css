@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 html, body {
-  background-color: #f7dc7e;
+  background-color: #f6e7a8;
 }
 
 
 body {
-  @apply bg-[#f7dc7e];
+  @apply bg-[#f6e7a8];
 }
