@@ -171,7 +171,7 @@ export default function TutoringLanding() {
               <motion.button
                 onClick={() =>
                   window.open(
-                    "https://calendar.app.google/p6JWYCcUc8EqgzG28",
+                    "https://calendar.app.google/3eKBCqfq3UKN8syL9",
                     "_blank"
                   )
                 }
