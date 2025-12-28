@@ -41,7 +41,7 @@ export default function TutoringLanding() {
   const [open, setOpen] = useState(false);
   const [lang, setLang] = useState("ar");
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1280);
-  const FIXED_PRICE = 15;
+  const FIXED_PRICE = 10;
 
   const t = translations[lang];
 
