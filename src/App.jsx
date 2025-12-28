@@ -5,7 +5,7 @@ const translations = {
   ar: {
     dir: "rtl",
     title: "تعلم العربية مع أسماء",
-    subtitle: "احجز وقتك المناسب وابدأ التعلم مباشرة",
+    subtitle: "طوّر لغتك العربية في نهاية الأسبوع",
     bookNow: "احجز الآن",
     modalTitle: "حجز الدرس",
     duration: "مدة الحصة: ساعة واحدة",
@@ -16,7 +16,7 @@ const translations = {
   en: {
     dir: "ltr",
     title: "Learn Arabic with Asma",
-    subtitle: "Book your preferred time and start learning instantly",
+    subtitle: "Improve your Arabic on weekends",
     bookNow: "Book Now",
     modalTitle: "Lesson Booking",
     duration: "Session duration: One hour",
@@ -27,7 +27,7 @@ const translations = {
   tr: {
     dir: "ltr",
     title: "Esma ile Arapça Öğren",
-    subtitle: "Uygun zamanını seç ve hemen öğrenmeye başla",
+    subtitle: "Hafta sonları Arapçanı geliştir",
     bookNow: "Hemen Rezervasyon Yap",
     modalTitle: "Ders Rezervasyonu",
     duration: "Ders süresi: 1 saat",
@@ -102,7 +102,7 @@ export default function TutoringLanding() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className=" leading-relaxed text-lg text-gray-800 mb-8 mt-6"
+            className=" leading-relaxed text-lg text-gray-800 mb-8 mt-4"
           >
             {t.subtitle}
           </motion.p>
